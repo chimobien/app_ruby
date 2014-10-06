@@ -1,0 +1,6 @@
+class ProductController < ApplicationController
+	def
+	end 
+	def detail
+	end
+end

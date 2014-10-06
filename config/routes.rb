@@ -1,4 +1,24 @@
 Rails.application.routes.draw do
+  resources :microposts
+
+  resources :tests
+
+  get 'test/index'
+
+  resources :logins
+
+  get 'product/detail'
+
+  get 'product/index'
+
+  get 'demo_login/edit'
+
+  resources :users
+
+  get 'demo_login/add'
+
+  get 'demo_login/index'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

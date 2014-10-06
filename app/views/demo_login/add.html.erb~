@@ -1,0 +1,6 @@
+<h1>DemoLogin#add</h1>
+<p>Find me in app/views/demo_login/add.html.erb</p>
+<%=@name%>
+<%=@age%>
+
+
